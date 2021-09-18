@@ -18,7 +18,7 @@ Your project goal is to operationalize this working, machine learning microservi
 ---
 
 ## Setup the Environment
-* clone git repo https://github.com/Ramrbs1/ramProject5.git
+* clone git repo https://github.com/Rajeevk1391/Project-4.git
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
 * Run make lint to test the dokcerfile and app.py file
