@@ -3,23 +3,23 @@
 Terminal1
 only getting this , nothing has been genrated while running predictions
 
-udacity1:~/environment/ramProject5 (master) $ ./run_kubernetes.sh 
-Error from server (AlreadyExists): pods "ramproject" already exists
-NAME            READY   STATUS    RESTARTS   AGE
-ramproject      1/1     Running   1          15h
-testcontainer   1/1     Running   1          15h
-Forwarding from 127.0.0.1:8000 -> 80
-Forwarding from [::1]:8000 -> 80
-Handling connection for 8000
-
-Terminal2:
-
-udacity1:~/environment/ramProject5 (master) $ ./make_prediction.sh 
+ubuntu:~/environment/Project-4 (main) $ ./make_prediction.sh 
 Port: 8000
 {
   "prediction": [
     20.35373177134412
   ]
 }
-udacity1:~/environment/ramProject5 (master) $ 
+ubuntu:~/environment/Project-4 (main) $ 
+
+
+Terminal2:
+
+(.devops) ubuntu:~/environment/Project-4 (main) $ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "project4" already exists
+NAME       READY   STATUS    RESTARTS   AGE
+project4   1/1     Running   0          79s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
 
